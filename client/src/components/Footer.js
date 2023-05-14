@@ -22,14 +22,15 @@ class Footer extends Component {
                                 alt=""
                                 className="sticky-logo img-fluid"
                               />
-                              <h3>KnowHow</h3>
+                              <h3>RAIS APPLICATION</h3>
                             </div>
                           </a>
                         </div>
                         <div className="footer-desc">
-                          Lorem ipsum dolor sit amet consect adipisici elit, sed
-                          do eiusmod tempor incididuk ut labore et dolore magna
-                          aliqua Ut enim
+                        RAIS is a project management application , and by that i mean it manages your project 
+                         and accompagnes it from start to finish .  With rais , u don't need to do everthing separatly ,
+                          to push your code from a place , to do your tests from another place and extera . 
+                          Rais offers u to do all of that in one place 
                         </div>
                       </div>
                     </div>
@@ -95,17 +96,17 @@ class Footer extends Component {
                         <h4 className="footer-widget__title">CONTACT US</h4>
                         <div className="footer-widget__content">
                           <p className="address">
-                            Your address goes here, street Crossroad123.
+                            SMART QUALITY GATE
                           </p>
                           <ul className="contact-details">
                             <li>
-                              <span>P:</span>99 55 66 88 526
+                              <span>P:</span> 55 66 88 526
                             </li>
                             <li>
                               <span>F:</span>55 44 77 62
                             </li>
                             <li>
-                              <span>E:</span>cons@email.com
+                              <span>E:</span>m.a.belkouri@gmail.com
                             </li>
                           </ul>
                         </div>
@@ -118,7 +119,7 @@ class Footer extends Component {
           </div>
           <div className="footer-copyright-wrapper">
             <div className="footer-copyright text-center">
-              Copyright © 2019. All right reserved
+              Daly_Belkouri_Copyright © . All right reserved
             </div>
           </div>
         </div>

@@ -15,10 +15,12 @@ class HeroSliderOne extends Component{
                 prevEl: '.ht-swiper-button-prev'
             },
             renderPrevButton: () => (
-                <div className="ht-swiper-button-prev ht-swiper-button-nav d-none d-xl-block"><i className="ion-ios-arrow-left" /></div>
+                <div className="ht-swiper-button-prev ht-swiper-button-nav d-none d-xl-block">
+                    <i className="ion-ios-arrow-left" /></div>
               ),
               renderNextButton: () => (
-                <div className="ht-swiper-button-next ht-swiper-button-nav d-none d-xl-block"><i className="ion-ios-arrow-forward" /></div>
+                <div className="ht-swiper-button-next ht-swiper-button-nav d-none d-xl-block">
+                    <i className="ion-ios-arrow-forward" /></div>
               ),
             autoplay: {
                 delay: 5000,

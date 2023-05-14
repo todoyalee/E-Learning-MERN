@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /**
  * demo1.js
  * http://www.codrops.com
@@ -117,3 +118,4 @@
         render();
     });
 }
+    

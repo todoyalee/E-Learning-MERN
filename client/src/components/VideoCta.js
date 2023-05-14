@@ -23,12 +23,10 @@ class VideoCta extends Component {
                 <div className="video-cta-content">
                   <h4 className="video-cta-content__small-title">ABOUT US</h4>
                   <h3 className="video-cta-content__title">
-                    Best E-learning Portal
+                    SMART QUALITY GATE
                   </h3>
                   <p className="video-cta-content__text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim
+                  One click away from managing your projects with style
                   </p>
                   <a
                     href={`${process.env.PUBLIC_URL}/contact-us`}
@@ -41,7 +39,7 @@ class VideoCta extends Component {
               <div className="col-lg-5 offset-lg-1 col-md-6">
                 <div className="cta-video-image">
                   <img
-                    src="assets/img/slider/sphere.png"
+                    src="assets/img/slider/l.png"
                     height="360px"
                     width="360px"
                     alt="techsphere"

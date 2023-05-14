@@ -20,30 +20,31 @@ class TestimonialSlider extends Component {
     };
     let data = [
       {
-        testimonialImage: "1.jpg",
-        testimonialName: "Apurva Savaj",
+        testimonialImage: "3.jpg",
+        testimonialName: "Alaaeddine abouda",
         testimonialDesignation: "Founder",
         testimonialText:
-          "Lorem ipsum dolor sit amet, consectetur adipisi elit sed do eiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+          "The product that wins is the one that bridges customers to the future, not the one that requires a giant leap."
       },
       {
         testimonialImage: "3.jpg",
-        testimonialName: "Aman Singh",
+        testimonialName: "Mohamed Ali BELKOURI",
         testimonialDesignation: "Engineer",
         testimonialText:
-          "Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Lorem ipsum dolor sit amet."
+          " As engineers, we were going to be in a position to change the world – not just study it"
       },
       {
-        testimonialImage: "2.jpg",
-        testimonialName: "Aananya Pandey",
-        testimonialDesignation: "CEO",
+        testimonialImage: "3.jpg",
+        testimonialName: "Asma reghimi ",
+        testimonialDesignation: "Founder",
         testimonialText:
-          "consectetur adipisi elit sed do eiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+          "User experience is everything. It always has been, but it’s still undervalued and under-invested in. If you don’t know user-centered design, study it. Hire people who know it. Obsess over it. Live and breathe it. Get your whole company on board."
       }
     ];
 
     let DataList = data.map((val, i) => {
       return (
+        
         <div className="swiper-slide testimonial-slider__single-slide" key={i}>
           <div className="author">
             <div className="author__image">

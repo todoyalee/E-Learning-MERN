@@ -4,13 +4,13 @@ class ServiceTabExample extends Component {
   render() {
     /* service tab menu */
     let serviceTabMenuData = [
-      { iconName: "flaticon-002-welding", tabMenuName: "Web Development" },
+      { iconName: "flaticon-002-welding", tabMenuName: " jira " },
       {
         iconName: "flaticon-004-walkie-talkie",
-        tabMenuName: "Mobile Apps"
+        tabMenuName: "zephyr"
       },
-      { iconName: "flaticon-015-cart", tabMenuName: "Programming Languages" },
-      { iconName: "flaticon-010-tank-1", tabMenuName: "Database" }
+      { iconName: "flaticon-015-cart", tabMenuName: "risk management" },
+      { iconName: "flaticon-010-tank-1", tabMenuName: "Gitlab " }
     ];
 
     let serviceTabMenuDatalist = serviceTabMenuData.map((val, i) => {
@@ -29,31 +29,31 @@ class ServiceTabExample extends Component {
 
     let serviceTabContentData = [
       {
-        bgUrl: "service-tab1.jpg",
-        contentTitle: "Modern React with Redux",
+        bgUrl: "jira.png",
+        contentTitle: "JIRA",
         contentDesc:
-          "Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          " create and track issues, assign tasks to team members, set priorities and due dates, and monitor progress and status.",
         serviceLink: "service-details-left-sidebar"
       },
       {
-        bgUrl: "service-tab1.jpg",
-        contentTitle: "The Complete React Native Course",
+        bgUrl: "z2z.JPG",
+        contentTitle: "Zephyr",
         contentDesc:
-          "Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          " create and track issues, assign tasks to team members, set priorities and due dates, and monitor progress and status..",
         serviceLink: "service-details-left-sidebar"
       },
       {
-        bgUrl: "service-tab1.jpg",
-        contentTitle: "JavaScript: Understanding the Weird Parts",
+        bgUrl: "RM2.JPG",
+        contentTitle: "RISK MANAGEMENT",
         contentDesc:
-          "Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "Successful investing is about managing risk, not avoiding it. ",
         serviceLink: "service-details-left-sidebar"
       },
       {
-        bgUrl: "service-tab1.jpg",
-        contentTitle: "MongoDB - The Complete Developer Guide",
+        bgUrl: "gg.png",
+        contentTitle: "Integrate gitlab commits on rais",
         contentDesc:
-          "Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          " collaborate on your code, track issues, and manage your entire software development lifecycle",
         serviceLink: "service-details-left-sidebar"
       }
     ];

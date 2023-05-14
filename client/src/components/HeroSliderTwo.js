@@ -31,23 +31,24 @@ class HeroSliderOne extends Component {
     let data = [
       {
         bgImg: "crowsel3.png",
-        sliderTitle: "Build Your Dream With Passion",
+        sliderTitle: "Build Your Dream  Project With Rais",
         sliderSubtitle:
-          "Learn, Code and start developing your own beautiful websites at no cost.",
+          " u don't neew to do everthing seperatly ! with rais , u can centralise everything !!",
         btnLink: "contact-us"
       },
       {
         bgImg: "crowsel2.png",
-        sliderTitle: "Build Your Dream With Passion",
+        sliderTitle: "Build Your Dream  Project With Rais",
         sliderSubtitle:
-          "Learn, Code and start developing your own beautiful websites at no cost.",
+        " u don't neew to do everthing seperatly ! with rais , u can centralise everything !!",
         btnLink: "contact-us"
       },
       {
         bgImg: "crowsel0.png",
-        sliderTitle: "Build Your Dream With Passion",
+        sliderTitle: "Build Your Dream  Project With Rais",
         sliderSubtitle:
-          "Learn, Code and start developing your own beautiful websites at no cost.",
+        " u don't neew to do everthing seperatly ! with rais , u can centralise everything !!",
+        
         btnLink: "contact-us"
       }
     ];

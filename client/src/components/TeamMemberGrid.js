@@ -7,9 +7,9 @@ class TeamMemberGrid extends Component {
     let data = [
       {
         profileImage: "team-1.jpg",
-        profileTitle: "Ashwini Soni",
+        profileTitle: "Asma reghimi",
         profileDesignation: "Team Member 1",
-        profileEmail: "info@example.com",
+        profileEmail: "asma@example.com",
         socialLinks: {
           facebook: "//www.facebook.com",
           twitter: "//www.twitter.com",
@@ -19,9 +19,9 @@ class TeamMemberGrid extends Component {
       },
       {
         profileImage: "team-2.jpg",
-        profileTitle: "Rutva Patel",
+        profileTitle: "Alaaeddine abouda",
         profileDesignation: "Team Member 2",
-        profileEmail: "info@example.com",
+        profileEmail: "alaa@example.com",
         socialLinks: {
           facebook: "//www.facebook.com",
           twitter: "//www.twitter.com",
@@ -31,9 +31,9 @@ class TeamMemberGrid extends Component {
       },
       {
         profileImage: "team-3.jpg",
-        profileTitle: "Amandeep Singh",
+        profileTitle: "Iheb Ben Salem",
         profileDesignation: "Team Member 3",
-        profileEmail: "info@example.com",
+        profileEmail: "iheb@example.com",
         socialLinks: {
           facebook: "//www.facebook.com",
           twitter: "//www.twitter.com",
@@ -43,16 +43,17 @@ class TeamMemberGrid extends Component {
       },
       {
         profileImage: "team-4.jpg",
-        profileTitle: "Apurva Savaj",
+        profileTitle: "Daly Belkouri",
         profileDesignation: "Team Member 4",
-        profileEmail: "info@example.com",
+        profileEmail: "daly@example.com",
         socialLinks: {
           facebook: "//www.facebook.com",
           twitter: "//www.twitter.com",
           linkedin: "//www.linkedin.com",
           googlePlus: "//plus.google.com"
         }
-      }
+      },
+      
     ];
 
     let Datalist = data.map((val, i) => {

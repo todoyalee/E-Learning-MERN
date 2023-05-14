@@ -47,7 +47,8 @@ class Contact extends Component{
                             <ul>
                                 <li>
                                     <span className="icon"><i className="ion-android-map" /></span>
-                                    <span className="text"><span>Stock Building, 125 Main Street 1st Lane, San Francisco, USA</span></span>
+                                    <span className="text"><span>Manouba Technopark, 2éme Etage, Bureaux N°43 - 44, Tunisia
+</span></span>
                                 </li>
                                 <li>
                                     <span className="icon"><i className="ion-ios-telephone-outline" /></span>
@@ -55,7 +56,7 @@ class Contact extends Component{
                                 </li>
                                 <li>
                                     <span className="icon"><i className="ion-ios-email-outline" /></span>
-                                    <span className="text"><a href="mailto:info@example.com">info@example.com</a><a href="mailto:info@example.com">info@example.com</a></span>
+                                    <span className="text"><a href="mailto:info@example.com">contact@smartqualitygate.com</a><a href="mailto:info@example.com">info@example.com</a></span>
                                 </li>
                             </ul>
                         </div>
