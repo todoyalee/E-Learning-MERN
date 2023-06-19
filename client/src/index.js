@@ -75,15 +75,17 @@ if (localStorage.jwtToken) {
 }
 
 class Root extends Component {
+  
   render() {
+    console.log(process.env);
     return (
       <Provider store={store}>
         <BrowserRouter basename={"/"}>
           <Switch>
             <Route
               exact
-              path={`${process.env.PUBLIC_URL}/`}
-              component={HomeTwo}
+              path={`${process.env.PUBLIC_URL}/login`}
+              component={Login}
             />
 
             <Route

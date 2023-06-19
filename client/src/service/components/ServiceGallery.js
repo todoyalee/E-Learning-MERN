@@ -25,12 +25,12 @@ class ServiceGallery extends Component{
         /* service image gallery data */
 
         let imageGalleryData = [
-            {img: 'service-details-1.jpg'},
-            {img: 'service-details-2.jpg'},
-            {img: 'service-details-3.jpg'},
-            {img: 'service-details-4.jpg'},
-            {img: 'service-details-5.jpg'},
-            {img: 'service-details-6.jpg'}
+            {img: 'aa.png'},
+            {img: 'a2.jpeg'},
+            {img: 'a3.png'},
+            {img: 'a2.jpg'},
+            {img: 'a67.jpg'},
+            {img: 'a7.png'}
         ];
 
         

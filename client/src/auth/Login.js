@@ -6,7 +6,7 @@ import { connect } from "react-redux";
 import GoogleLoginButton from 'react-google-login-button';
 import { loginUser } from "../actions/authActions";
 import NavBar from '../components/NavBar';
-
+import NaaavBar from "../components/NaaavBar";
 class Login extends Component {
   constructor() {
     super();
@@ -58,7 +58,7 @@ class Login extends Component {
     }
     return (
       <div>
-        <NavBar/>
+        <NaaavBar/>
       <div className="auth-wrapper">
         <div className="auth-content container">
           <div className="card">
@@ -155,6 +155,7 @@ class Login extends Component {
                     <button className="btn btn-primary shadow-2 mb-4">
                       Login
                     </button>
+                    
                   </form>
                   {/* <p className="mb-2 text-muted">
                     Forgot password?{" "}
@@ -165,15 +166,7 @@ class Login extends Component {
                       Reset
                     </a>
                   </p> */}
-                  <p className="mb-0 text-muted">
-                    Don’t have an account?{" "}
-                    <a
-                      href={`${process.env.PUBLIC_URL}/register/`+this.props.match.params.role}
-                      className="f-w-400"
-                    >
-                      Signup
-                    </a>
-                  </p>
+                  
                 </div>
               </div>
               <div className="col-md-6 d-none d-md-block">

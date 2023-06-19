@@ -6,20 +6,20 @@ class Sidebar extends Component {
 
     let popularPostData = [
       {
-        postImage: "sidebar-blog-1.jpg",
-        postTitle: "Making Sense of React Hooks?",
+        postImage: "pi.png",
+        postTitle: "PipelineCI/CD",
+        postLink: "PipelineCI/CD",
+        postDate: "30 October 2019"
+      },
+      {
+        postImage: "r1.jpeg",
+        postTitle: "Risks and Problems",
         postLink: "blog-details-left-sidebar",
         postDate: "30 October 2019"
       },
       {
-        postImage: "sidebar-blog-2.jpg",
-        postTitle: "Set Up Medium Feed in React",
-        postLink: "blog-details-left-sidebar",
-        postDate: "30 October 2019"
-      },
-      {
-        postImage: "sidebar-blog-3.jpg",
-        postTitle: "Five Things I Didn’t Know About Create-React-App",
+        postImage: "t8.png",
+        postTitle: "Service Connections",
         postLink: "blog-details-left-sidebar",
         postDate: "30 October 2019"
       }
@@ -46,13 +46,13 @@ class Sidebar extends Component {
     /* sidebar tag */
 
     let tagData = [
-      { tagLink: "blog-left-sidebar", tagName: "Web Development" },
-      { tagLink: "blog-left-sidebar", tagName: "Mobile Apps" },
-      { tagLink: "blog-left-sidebar", tagName: "Programming Languages" },
+      { tagLink: "blog-left-sidebar", tagName: "Operational Risks" },
+      { tagLink: "blog-left-sidebar", tagName: "Technical Risks" },
+      { tagLink: "blog-left-sidebar", tagName: "Programmatic Risks	      " },
       { tagLink: "blog-left-sidebar", tagName: "Game Development" },
-      { tagLink: "blog-left-sidebar", tagName: "Databases" },
-      { tagLink: "blog-left-sidebar", tagName: "Software Testing" },
-      { tagLink: "blog-left-sidebar", tagName: "Software Engineering" }
+      { tagLink: "blog-left-sidebar", tagName: "Schedule risks" },
+      { tagLink: "blog-left-sidebar", tagName: "Budget Risk	      " },
+      { tagLink: "blog-left-sidebar", tagName: "Planning Risks	      " }
     ];
 
     let tagDataList = tagData.map((val, i) => {
@@ -71,7 +71,7 @@ class Sidebar extends Component {
             {popularPostDataList}
           </div>
           <div className="sidebar">
-            <h3 className="sidebar-title">Popular Tags</h3>
+            <h3 className="sidebar-title">Risk Types</h3>
             <ul className="sidebar-tag">{tagDataList}</ul>
           </div>
         </div>

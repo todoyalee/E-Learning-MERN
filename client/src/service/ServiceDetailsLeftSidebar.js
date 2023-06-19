@@ -45,25 +45,44 @@ class ServiceDetailsLeftSidebar extends Component{
                                 <div className="content section-space--top--30">
                                 <div className="row">
                                     <div className="col-12">
-                                    <h2>Construction</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, sunt perspiciatis error id ipsa atque unde quis dolore nobis eum aperiam enim blanditiis pariatur inventore eius commodi consectetur ut. Totam, assumenda! Laboriosam possimus, corporis dicta!</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aliquid quod, officiis unde nostrum itaque! Adipisci dolorum, ab dolor, exercitationem praesentium dolorem quo voluptatum itaque dignissimos, sit esse cupiditate. Doloremque rerum similique a nobis placeat in illum, quo quaerat, ut repellat, fuga itaque? Nihil mollitia nisi, nam, accusantium nemo consequuntur reiciendis autem dicta consequatur earum beatae dolor distinctio, debitis repudiandae?</p>
+                                    <h2>Test Types</h2>
+                                    <p>Test types refer to the different approaches or methods used to test a product or system to ensure it meets the intended requirements, specifications, or user needs. Each test type has a specific purpose and is designed to identify different types of issues or defects that may exist in the system.
+
+There are many test types, such as unit testing, functional testing, performance testing, security testing, usability testing, and more. Each test type typically involves a different set of activities, techniques, tools, and measures to assess the system's quality attributes, such as functionality, performance, reliability, maintainability, and usability.</p>
+                                    <p>By using different test types, software developers, testers, and quality assurance professionals can systematically verify and validate the software product or system under test, and ensure that it meets the desired quality standards and user expectations.
+
+
+
+
+</p>
                                     </div>
                                     <div className="col-lg-6 col-12 section-space--top--30">
-                                    <h3>Project Analysis</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, animi? Vel quas in minima qui totam, aliquid dolores quaerat voluptatum?</p>
+                                    <h3>Unit Testing</h3>
+                                    <p>This is a type of testing where individual units or components of a software application are tested in isolation to ensure they are functioning as intended.</p>
                                     </div>
                                     <div className="col-lg-6 col-12 section-space--top--30">
-                                    <h3>Project Costing</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, animi? Vel quas in minima qui totam, aliquid dolores quaerat voluptatum?</p>
+                                    <h3>Functional Testing</h3>
+                                    <p>This type of testing involves testing the functionality of the software application against specified requirements or user stories.</p>
                                     </div>
                                     <div className="col-lg-6 col-12 section-space--top--30">
-                                    <h3>Project Planning</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, animi? Vel quas in minima qui totam, aliquid dolores quaerat voluptatum?</p>
+                                    <h3>Performance Testing</h3>
+                                    <p>This is a type of testing that measures how well a software application performs under specific conditions, such as high traffic or load.</p>
                                     </div>
                                     <div className="col-lg-6 col-12 section-space--top--30">
-                                    <h3>Project Strategy</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, animi? Vel quas in minima qui totam, aliquid dolores quaerat voluptatum?</p>
+                                    <h3>Static Testing</h3>
+                                    <p>This type of testing involves reviewing the software code or documentation without actually executing it to identify potential issues or defects.</p>
+                                    </div>
+                                    <div className="col-lg-6 col-12 section-space--top--30">
+                                    <h3>Static Testing</h3>
+                                    <p>This type of testing involves reviewing the software code or documentation without actually executing it to identify potential issues or defects.</p>
+                                    </div>
+                                    <div className="col-lg-6 col-12 section-space--top--30">
+                                    <h3>Security Testing</h3>
+                                    <p>This type of testing involves assessing the security of the software application, including identifying vulnerabilities and testing for potential attacks.</p>
+                                    </div>
+                                    <div className="col-lg-6 col-12 section-space--top--30">
+                                    <h3>API Testing</h3>
+                                    <p>This is a type of testing that involves testing the application programming interfaces (APIs) that allow different software components to communicate with each other, to ensure they are working correctly and returning the expected results.</p>
                                     </div>
                                 </div>
                                 </div>

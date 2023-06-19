@@ -33,31 +33,31 @@ class ServiceGridSlider extends Component {
     };
     let data = [
       {
+        img: "la.jpeg",
+        serviceTitle: "risk management",
+        serviceExcerpt:
+          "Risk management is the process of identifying, assessing, and prioritizing risks and then taking measures to minimize, monitor, and control those risks. It is a critical part of project management, business operations, and overall organizational strategy. ",
+        serviceUrl: "service-details-left-sidebar"
+      },
+      {
+        img: "A.jpg",
+        serviceTitle: "automated managements of the risks",
+        serviceExcerpt:
+          "Automation management of risks is the process of identifying and assessing the risks associated with automating business processes, systems, or applications, and then implementing strategies to minimize those risks. Automation has the potential to bring significant benefits to organizations, including increased efficiency, accuracy, and consistency. ",
+        serviceUrl: "service-details-left-sidebar"
+      },
+      {
+        img: "am3.png",
+        serviceTitle: "Automated Protection",
+        serviceExcerpt:
+          "“You’re either the one that creates the automation or you’re getting automated.Automated protection in programming refers to the use of automated tools and techniques to identify and mitigate potential security vulnerabilities in software applications.",
+        serviceUrl: "service-details-left-sidebar"
+      },
+      {
         img: "service1.jpg",
-        serviceTitle: "React - The Complete Guide (incl Hooks, Redux)",
+        serviceTitle: "cypress",
         serviceExcerpt:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor",
-        serviceUrl: "service-details-left-sidebar"
-      },
-      {
-        img: "service2.jpg",
-        serviceTitle: "The Complete React Native Course",
-        serviceExcerpt:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor",
-        serviceUrl: "service-details-left-sidebar"
-      },
-      {
-        img: "service3.jpg",
-        serviceTitle: "JavaScript: Understanding the Weird Parts",
-        serviceExcerpt:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor",
-        serviceUrl: "service-details-left-sidebar"
-      },
-      {
-        img: "service1.jpg",
-        serviceTitle: "MongoDB - The Complete Developer Guide",
-        serviceExcerpt:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor",
+          "Cypress is an open-source end-to-end testing framework for web applications. It is a JavaScript-based testing tool that enables developers to write tests in a simple and understandable way. Cypress is designed to be easy to use and offers many useful features such as real-time reloading, automatic waiting, and debugging tools.",
         serviceUrl: "service-details-left-sidebar"
       }
     ];

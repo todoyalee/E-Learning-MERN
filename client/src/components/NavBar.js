@@ -3,13 +3,15 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { logoutUser } from "../actions/authActions";
-
+  
 class NavBar extends Component {
   onLogoutClick(e) {
     e.preventDefault();
 
     this.props.logoutUser();
-    // window.location.href = "/";
+     window.location.href = "/";
+      
+
   }
 
   state = {
@@ -56,7 +58,7 @@ class NavBar extends Component {
                                   alt=""
                                   className="sticky-logo img-fluid"
                                 />
-                                <h3>KnowHow</h3>
+                                <h3>Rais_Application</h3>
                               </div>
                             </a>
 
@@ -93,7 +95,7 @@ class NavBar extends Component {
                                 </a>
                               </li>
                               <li className="inactive">
-                                <a
+                                 <a
                                   onClick={this.onLogoutClick.bind(this)}
                                   className="nav-link"
                                 >
@@ -220,11 +222,7 @@ class NavBar extends Component {
             LOGIN
           </Link>
         </li>
-        <li>
-          <Link className="nav-link" to="/login/instructor">
-            Teach On Knowhow
-          </Link>
-        </li>
+        
       </React.Fragment>
     );
 
@@ -252,23 +250,35 @@ class NavBar extends Component {
                                 alt=""
                                 className="sticky-logo img-fluid"
                               />
-                              <h3>KnowHow</h3>
+                              <h3>Rais</h3>
                             </div>
                           </a>
 
                           <ul id="main-nav-ul">
-                            <li>
-                              <a href={`${process.env.PUBLIC_URL}/home-two`}>
-                                HOME
-                              </a>
-                            </li>
-                            <li>
-                              <a href={`${process.env.PUBLIC_URL}/about-us`}>
-                                ABOUT
-                              </a>
-                            </li>
+                            
+                           
+                   { 
+                     isAuthenticated &&
+                        <li>
+                         <a href={`${process.env.PUBLIC_URL}/home-two`}>
+                        HOME
+                     </a>
+                        </li>
+ 
+                              }
+ 
 
-                            {isAuthenticated ? authLinks : guestLinks}
+ 
+
+{
+isAuthenticated &&
+<li>
+<a href={`${process.env.PUBLIC_URL}/about-us`}>
+ABOUT
+</a>
+</li>
+
+}                           {isAuthenticated ? authLinks : guestLinks}
                           </ul>
 
                           <div
@@ -318,7 +328,7 @@ class NavBar extends Component {
 
                             {isAuthenticated ? authLinks : guestLinks}
                           </ul>
-                        </nav>
+                        </nav>  
                       </div>
                     </div>
                   </div>

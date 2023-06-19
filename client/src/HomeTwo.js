@@ -8,14 +8,14 @@ import TestimonialSlider from "./components/TestimonialSlider";
 import BrandLogoSlider from "./components/BrandLogoSlider";
 import Footer from "./components/Footer";
 import MobileMenu from "./components/MobileMenu";
-
+import NaaavBar from "./components/NavBar";
 class HomeTwo extends Component {
   render() {
     return (
       <div>
         {/* Navigation bar */}
-        <NavBar />
-
+        
+<NavBar />
         {/* Hero slider */}
         <HeroSliderTwo />
 
