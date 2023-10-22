@@ -22,14 +22,12 @@ class Footer extends Component {
                                 alt=""
                                 className="sticky-logo img-fluid"
                               />
-                              <h3>KnowHow</h3>
+                              <h3>Beauty Link Agency</h3>
                             </div>
                           </a>
                         </div>
                         <div className="footer-desc">
-                          Lorem ipsum dolor sit amet consect adipisici elit, sed
-                          do eiusmod tempor incididuk ut labore et dolore magna
-                          aliqua Ut enim
+                          A beauty company that offers beauty products marketing and basically   make your products well known
                         </div>
                       </div>
                     </div>
@@ -99,13 +97,13 @@ class Footer extends Component {
                           </p>
                           <ul className="contact-details">
                             <li>
-                              <span>P:</span>99 55 66 88 526
+                              <span>P:</span>58294153
                             </li>
                             <li>
-                              <span>F:</span>55 44 77 62
+                              <span>F:</span>58294153
                             </li>
                             <li>
-                              <span>E:</span>cons@email.com
+                              <span>E:</span>daliBelkouri@gmail.com
                             </li>
                           </ul>
                         </div>
@@ -118,7 +116,7 @@ class Footer extends Component {
           </div>
           <div className="footer-copyright-wrapper">
             <div className="footer-copyright text-center">
-              Copyright © 2019. All right reserved
+              Copyright © 2023. All right reserved
             </div>
           </div>
         </div>

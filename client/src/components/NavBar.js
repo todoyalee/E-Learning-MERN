@@ -56,7 +56,7 @@ class NavBar extends Component {
                                   alt=""
                                   className="sticky-logo img-fluid"
                                 />
-                                <h3>KnowHow</h3>
+                                <h3>Beauty Link Agency</h3>
                               </div>
                             </a>
 

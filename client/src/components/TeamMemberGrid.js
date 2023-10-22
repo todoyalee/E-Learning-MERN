@@ -6,8 +6,8 @@ class TeamMemberGrid extends Component {
 
     let data = [
       {
-        profileImage: "team-1.jpg",
-        profileTitle: "Ashwini Soni",
+        profileImage: "b.jpg",
+        profileTitle: "Mohamed Ali Belkouri",
         profileDesignation: "Team Member 1",
         profileEmail: "info@example.com",
         socialLinks: {
@@ -18,8 +18,8 @@ class TeamMemberGrid extends Component {
         }
       },
       {
-        profileImage: "team-2.jpg",
-        profileTitle: "Rutva Patel",
+        profileImage: "g.jpg",
+        profileTitle: "Salma gharbi",
         profileDesignation: "Team Member 2",
         profileEmail: "info@example.com",
         socialLinks: {
@@ -31,7 +31,7 @@ class TeamMemberGrid extends Component {
       },
       {
         profileImage: "team-3.jpg",
-        profileTitle: "Amandeep Singh",
+        profileTitle: "Eya abid",
         profileDesignation: "Team Member 3",
         profileEmail: "info@example.com",
         socialLinks: {
@@ -43,7 +43,7 @@ class TeamMemberGrid extends Component {
       },
       {
         profileImage: "team-4.jpg",
-        profileTitle: "Apurva Savaj",
+        profileTitle: "essia ben aziza",
         profileDesignation: "Team Member 4",
         profileEmail: "info@example.com",
         socialLinks: {

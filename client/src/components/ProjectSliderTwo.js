@@ -33,31 +33,31 @@ class ServiceGridSlider extends Component {
     };
     let data = [
       {
-        img: "service1.jpg",
-        serviceTitle: "React - The Complete Guide (incl Hooks, Redux)",
+        img: "lip1.jpg",
+        serviceTitle: "Summer Fridays",
         serviceExcerpt:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor",
+          "Lip Butter Balm for Hydration & Shine",
         serviceUrl: "service-details-left-sidebar"
       },
       {
-        img: "service2.jpg",
-        serviceTitle: "The Complete React Native Course",
+        img: "Hill.jpg",
+        serviceTitle: "Anastasia Beverly Hills",
         serviceExcerpt:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor",
+          "Anastasia Beverly Hills",
         serviceUrl: "service-details-left-sidebar"
       },
       {
-        img: "service3.jpg",
-        serviceTitle: "JavaScript: Understanding the Weird Parts",
+        img: "Rabanne.jpg",
+        serviceTitle: "Glamnetic",
         serviceExcerpt:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor",
+          "Hybrid Liquid Eyeliner",
         serviceUrl: "service-details-left-sidebar"
       },
       {
-        img: "service1.jpg",
-        serviceTitle: "MongoDB - The Complete Developer Guide",
+        img: "Glamnetic.jpg",
+        serviceTitle: "Rabanne",
         serviceExcerpt:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor",
+          "Phantom Eau de Parfum Travel Spray",
         serviceUrl: "service-details-left-sidebar"
       }
     ];

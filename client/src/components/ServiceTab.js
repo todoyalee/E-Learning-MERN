@@ -4,13 +4,13 @@ class ServiceTabExample extends Component {
   render() {
     /* service tab menu */
     let serviceTabMenuData = [
-      { iconName: "flaticon-002-welding", tabMenuName: "Web Development" },
+      { iconName: "flaticon-002-welding", tabMenuName: "Haircare" },
       {
         iconName: "flaticon-004-walkie-talkie",
-        tabMenuName: "Mobile Apps"
+        tabMenuName: "Nail Care"
       },
-      { iconName: "flaticon-015-cart", tabMenuName: "Programming Languages" },
-      { iconName: "flaticon-010-tank-1", tabMenuName: "Database" }
+      { iconName: "flaticon-015-cart", tabMenuName: "Tools and Accessories" },
+      { iconName: "flaticon-010-tank-1", tabMenuName: "Organic/Natural" }
     ];
 
     let serviceTabMenuDatalist = serviceTabMenuData.map((val, i) => {
@@ -29,31 +29,31 @@ class ServiceTabExample extends Component {
 
     let serviceTabContentData = [
       {
-        bgUrl: "service-tab1.jpg",
-        contentTitle: "Modern React with Redux",
+        bgUrl: "Haircare.jpg",
+        contentTitle: "Haircare",
         contentDesc:
-          "Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "Shampoos, conditioners, styling products, and hair treatments.",
         serviceLink: "service-details-left-sidebar"
       },
       {
-        bgUrl: "service-tab1.jpg",
-        contentTitle: "The Complete React Native Course",
+        bgUrl: "NailCare.jpg",
+        contentTitle: "Nail Care",
         contentDesc:
-          "Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "Nail polish, nail treatments, and manicure/pedicure tools",
         serviceLink: "service-details-left-sidebar"
       },
       {
-        bgUrl: "service-tab1.jpg",
-        contentTitle: "JavaScript: Understanding the Weird Parts",
+        bgUrl: "TA.jpg",
+        contentTitle: "Tools and Accessories",
         contentDesc:
-          "Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "Makeup brushes, skincare tools, mirrors, and applicators",
         serviceLink: "service-details-left-sidebar"
       },
       {
-        bgUrl: "service-tab1.jpg",
-        contentTitle: "MongoDB - The Complete Developer Guide",
+        bgUrl: "ON.jpg",
+        contentTitle: "Organic/Natural",
         contentDesc:
-          "Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "Products made from natural or organic ingredients.",
         serviceLink: "service-details-left-sidebar"
       }
     ];
@@ -91,7 +91,7 @@ class ServiceTabExample extends Component {
               <div className="col-lg-12">
                 <div className="section-title-area text-center">
                   <h2 className="section-title section-space--bottom--50">
-                    Most Viewed Courses <span className="title-icon" />
+                    Our Focus <span className="title-icon" />
                   </h2>
                 </div>
               </div>
