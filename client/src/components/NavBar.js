@@ -222,7 +222,7 @@ class NavBar extends Component {
         </li>
         <li>
           <Link className="nav-link" to="/login/instructor">
-            Teach On Knowhow
+            TUNECO
           </Link>
         </li>
       </React.Fragment>
@@ -252,7 +252,7 @@ class NavBar extends Component {
                                 alt=""
                                 className="sticky-logo img-fluid"
                               />
-                              <h3>KnowHow</h3>
+                              <h3>TUNECO</h3>
                             </div>
                           </a>
 

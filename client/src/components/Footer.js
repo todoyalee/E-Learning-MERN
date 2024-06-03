@@ -27,6 +27,7 @@ class Footer extends Component {
                           </a>
                         </div>
                         <div className="footer-desc">
+                          
                           A beauty company that offers beauty products marketing and basically   make your products well known
                         </div>
                       </div>

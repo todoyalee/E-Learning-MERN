@@ -21,24 +21,24 @@ class TestimonialSlider extends Component {
     let data = [
       {
         testimonialImage: "1.jpg",
-        testimonialName: "Apurva Savaj",
+        testimonialName: "Madame A",
         testimonialDesignation: "Founder",
         testimonialText:
-          "Lorem ipsum dolor sit amet, consectetur adipisi elit sed do eiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+          "We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to make every important aspect of the customer experience a little bit better"
       },
       {
         testimonialImage: "3.jpg",
-        testimonialName: "Aman Singh",
-        testimonialDesignation: "Engineer",
+        testimonialName: "madame B",
+        testimonialDesignation: "Beauty Expert ",
         testimonialText:
-          "Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Lorem ipsum dolor sit amet."
+          "Everything has beauty, but not everyone sees it."
       },
       {
         testimonialImage: "2.jpg",
-        testimonialName: "Aananya Pandey",
+        testimonialName: "Madame C",
         testimonialDesignation: "CEO",
         testimonialText:
-          "consectetur adipisi elit sed do eiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+          "The truth is not always beautiful, nor beautiful words the truth."
       }
     ];
 

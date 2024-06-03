@@ -26,9 +26,9 @@ class VideoCta extends Component {
                     Best E-learning Portal
                   </h3>
                   <p className="video-cta-content__text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim
+                  Beauty Link is an international company specialized in this and this and this 
+                  Beauty Link is an international company specialized in this and this and this 
+                  Beauty Link is an international company specialized in this and this and this 
                   </p>
                   <a
                     href={`${process.env.PUBLIC_URL}/contact-us`}
@@ -41,7 +41,7 @@ class VideoCta extends Component {
               <div className="col-lg-5 offset-lg-1 col-md-6">
                 <div className="cta-video-image">
                   <img
-                    src="assets/img/slider/sphere.png"
+                    src="assets/img/slider/logo.jpg"
                     height="360px"
                     width="360px"
                     alt="techsphere"

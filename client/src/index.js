@@ -109,7 +109,7 @@ class Root extends Component {
             />
             <PrivateRoute
               exact
-              path={`${process.env.PUBLIC_URL}/services`}
+              path={`${process.env.PUBLIC_URL}/servi  ces`}
               component={Services}
             />
             <PrivateRoute

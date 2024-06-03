@@ -71,19 +71,19 @@ class Sidebar extends Component {
     let popularPostData = [
       {
         postImage: "sidebar-blog-1.jpg",
-        postTitle: "Making Sense of React Hooks?",
+        postTitle: "Physical Beauty",
         postLink: "blog-details-left-sidebar",
         postDate: "30 October 2019"
       },
       {
         postImage: "sidebar-blog-2.jpg",
-        postTitle: "Set Up Medium Feed in React",
+        postTitle: "Inner Beauty",
         postLink: "blog-details-left-sidebar",
         postDate: "30 October 2019"
       },
       {
         postImage: "sidebar-blog-3.jpg",
-        postTitle: "Five Things I Didn’t Know About Create-React-App",
+        postTitle: "Art and Aesthetics",
         postLink: "blog-details-left-sidebar",
         postDate: "30 October 2019"
       }

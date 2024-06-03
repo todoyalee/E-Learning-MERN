@@ -33,28 +33,28 @@ class ServiceGridSlider extends Component {
     };
     let data = [
       {
-        img: "lip1.jpg",
+        img: "ippo1.jpg",
         serviceTitle: "Summer Fridays",
         serviceExcerpt:
           "Lip Butter Balm for Hydration & Shine",
         serviceUrl: "service-details-left-sidebar"
       },
       {
-        img: "Hill.jpg",
+        img: "ippo2.jpg",
         serviceTitle: "Anastasia Beverly Hills",
         serviceExcerpt:
           "Anastasia Beverly Hills",
         serviceUrl: "service-details-left-sidebar"
       },
       {
-        img: "Rabanne.jpg",
+        img: "ippo3.jpg",
         serviceTitle: "Glamnetic",
         serviceExcerpt:
           "Hybrid Liquid Eyeliner",
         serviceUrl: "service-details-left-sidebar"
       },
       {
-        img: "Glamnetic.jpg",
+        img: "ippo2.jpg",
         serviceTitle: "Rabanne",
         serviceExcerpt:
           "Phantom Eau de Parfum Travel Spray",
